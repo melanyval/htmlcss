@@ -1,0 +1,246 @@
+html, body{
+    background-color: red;
+    color: white;
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.yellow {
+    background-color: rgb(240, 146, 51);
+}
+
+.orange {
+    background-color: rgb(203, 56, 55);
+}
+
+.blue {
+    background-color: rgb(49, 68, 88);
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.top-left {
+    display: inline-block;
+}
+
+header {
+    width: 100%;
+    background: rgb(32, 101, 136);
+    background-image: url(images/city-scape.svg);
+}
+
+.ht-section {
+    padding-top: 10px;
+    display: flex;
+}
+
+.ht-logo {
+    width: 90px;
+    height: 50px;
+}
+
+.search {
+    display: flex;
+    height: 50px;
+    width: 85%;
+}
+
+.search-input {
+    background-color: rgb(31, 82, 111);
+    padding: 5px;
+    border: 1px solid rgb(115, 132, 141);
+    width: 100%;
+}
+
+.search-buttom {
+    background-color: rgb(31, 82, 111);
+    width: 55px;
+    border: 1px solid rgb(115, 132, 141);;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+.ht-input {
+    background-color: rgb(31, 82, 111);
+    margin: 0 auto;
+    border-color: rgb(31, 82, 111);
+    padding: 0px 0px 0px 10px;
+    height: 30px;
+}
+
+.ht-login {
+    display: inline-flex;
+    width: 170px;
+    padding: 0px 20px 0px 20px;
+}
+
+.ht-login li {
+    display: inline-block;
+}
+
+.img-bear {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.ht-amazing-things {
+    margin-left: 15%;
+    width: 500px;
+    padding-bottom: 70px;
+    margin: auto;
+    padding-right: 350px;
+}
+
+.sections {
+    width: 100%;
+}
+
+.first-section {
+    background-color: rgb(39, 53, 71);
+}
+
+.fs-wrap {
+    display: flex;
+}
+
+.fs-center {
+    margin: 0 auto;
+    display:flex;
+}
+
+.fs-message li {
+    margin:0 0 10px 0;  
+}
+
+.img-section {
+    width: 400px;
+    height: 300px;
+}
+
+.fs-message {
+    width: 500px;
+}
+
+.second-section {
+    background-image: url(images/forklift.svg);
+    padding-bottom: 250px;
+}
+
+.ss-center {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.ss-text {
+    width: 350px;
+}
+
+.third-section {
+    background-color: white;
+    
+}
+
+.third-section h2 {
+    color: rgb(83, 88, 98);
+}
+
+.third-section p {
+    color: rgb(135, 145, 156)
+}
+
+.third-section a {
+    color: rgb(208, 74, 73);
+}
+
+.ts-text {
+    text-align: center;
+}
+
+.blocks {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.block {
+    width: 400px;
+    text-align: center;
+}
